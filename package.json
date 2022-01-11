@@ -32,7 +32,7 @@
     "test": "npm run test:mjs && npm run test:cjs && npm run test:dts",
     "test:mjs": "node lib/uploadcare-widget.mjs",
     "test:cjs": "node lib/uploadcare-widget.cjs",
-    "test:dts": "tsc --esModuleInterop lib/uploadcare-widget.d.ts"
+    "test:dts": "tsc --esModuleInterop --noEmit lib/uploadcare-widget.d.ts"
   },
   "dependencies": {
     "@types/jquery": "^3.5.12",
