@@ -288,6 +288,6 @@ export interface UploadcarePluginApi {
     openPreviewDialog<T = FilePromise>(file: T | null, settings?: Settings): Dialog<T>;
 }
 
-const uploadcare: Uploadcare;
+declare const uploadcare: Uploadcare;
 
 export default uploadcare;
