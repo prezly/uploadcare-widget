@@ -1,6 +1,6 @@
 {
   "name": "@prezly/uploadcare-widget",
-  "version": "3.16.0",
+  "version": "3.16.1",
   "description": "Typescript-friendly wrapper around Uploadcare Widget library (`uploadcare-widget`).",
   "keywords": [
     "uploadcare",
