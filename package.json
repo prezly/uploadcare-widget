@@ -1,0 +1,42 @@
+{
+  "name": "@prezly/uploadcare-widget",
+  "version": "3.16.0",
+  "description": "Typescript-friendly wrapper around Uploadcare Widget library (`uploadcare-widget`).",
+  "keywords": [
+    "uploadcare",
+    "widget",
+    "typescript",
+    "types"
+  ],
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prezly/uploadcare-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prezly/uploadcare-widget/issues"
+  },
+  "homepage": "https://github.com/prezly/uploadcare-widget#readme",
+  "type": "module",
+  "main": "lib/uploadcare-widget.cjs",
+  "module": "lib/uploadcare-widget.mjs",
+  "types": "lib/uploadcare-widget.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/uploadcare-widget.d.ts",
+      "import": "./lib/uploadcare-widget.mjs",
+      "default": "./lib/uploadcare-widget.cjs"
+    }
+  },
+  "scripts": {
+    "test": "node lib/uploadcare-widget.mjs && node lib/uploadcare-widget.cjs && tsc lib/uploadcare-widget.d.ts"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.12",
+    "uploadcare-widget": "^3.16.0"
+  },
+  "devDependencies": {
+    "np": "^7.6.0",
+    "typescript": "^4.5.4"
+  }
+}
