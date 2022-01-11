@@ -31,4 +31,4 @@ original package version by providing the corresponding type-definitions on top.
 ## Credits
 
 Brought to you by [Prezly](https://www.prezly.com/?utm_source=github&utm_campaign=@prezly/uploadcare-widget)
-and [Uploadcare](https://uploadcare.com), of course.
+and [Uploadcare](https://uploadcare.com).
