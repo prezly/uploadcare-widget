@@ -28,6 +28,9 @@
       "default": "./lib/uploadcare-widget.cjs"
     }
   },
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "test": "npm run test:mjs && npm run test:cjs && npm run test:dts",
     "test:mjs": "node lib/uploadcare-widget.mjs",
